@@ -4,17 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Inicio</title>
-   
+    <link rel="shortcut icon" href="img/iniciu.png" />
+    <nav>
+        <a href="inicio.html">INICIO</a>|
+        <a href="primera.html">DOBLE DIAMANTE</a>|
+        <a href="segunda.html">DESIGN THINKING</a>|
+    </nav>
+    <style>
+        .body{
+            background-color: blueviolet;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            margin:0px
+        }
+        .caja-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 17px;
+        }
+    .caja{
+        width: 150px ;
+        height: 150px;
+        padding:15px;
+        margin: 15px;
+        color: black;
+       text-align:center;
+    }
+    .caja-1{
+        background-color: rgb(215, 64, 249);
+    }
+    .caja-2{
+        background-color: rgb(215, 64, 249);
+    }
+ </style>
+    
 </head>
-<body style="background-color: rgba(252, 251, 241, 0.842);">
+<body style="background-color: rgba(221, 158, 255, 0.753);">
     <center style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
-    <h1 style="color: brown;">¿Cuáles son las metodologías más comunes de UX/UI?</h1>
+    <h1 style="color: rgb(87, 4, 105);">¿Cuáles son las metodologías más comunes de UX/UI?</h1>
     <img src="img/Diseño_ui_ux_diferencias.jpg" alt="no encontrada" sizes="50px">
  </center>
 
- <div>
+ <div class="caja-container">
+    <div class="caja caja-1">
+        <h2>DOBLE DIAMANTE</h2>
+        <a href="primera.html">CLICK AQUI</a>
+    </div>
+    <div class="caja caja-2">
+        <h2>DESIGN THINKING</h2>
+        <a href="segunda.html">CLICK AQUI</a>
 
+    </div>
  </div>
+ 
+
+ 
     
 </body>
 </html>
